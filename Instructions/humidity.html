@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Bootstrap Visualization Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar bg-white navbar-light navbar-expand-sm fixed-top">
+        <!-- Brand -->
+            <a class="navbar-brand" style="background-color: #0BADA6;"  href="index.html" class="active">
+                    Latitude
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#collapseNavbar"> 
+                    <span class="navbar-toggler-icon"></span> 
+            </button> 
+                
+            <div class="collapse navbar-collapse" id="collapseNavbar"> 
+            <!-- Links -->
+                <ul class="navbar-nav ml-auto">
+                    
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="maxTemp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="windSpeed.html">Wind Speed</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <!--Summary box-->
+                    <div class="box">
+                        <h3 class="title">Humidity</h3>
+                        <hr>
+                        <img src="Resources/assets/images/Fig2.png" alt="Humidity Image" ALIGN=”left” HSPACE=”50” VSPACE=”50”></img>
+                        <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of
+                                humidity percentages at different latitudes. Therefore, we cannot conclude that there is any
+                                pattern between humidity and latitude.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                        <!--Visualization box-->
+                        <div class="box">
+                            <h3 class="title">Visualizations</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="maxTemp.html">
+                                        <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
+                                        </img>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="humidity.html">
+                                        <img src="Resources/assets/images/Fig2.png" alt="Humidity Image">
+                                        </img>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="cloudiness.html">
+                                        <img src="Resources/assets/images/Fig3.png" alt="Cloudiness Image">
+                                        </img>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="windSpeed.html">
+                                        <img src="Resources/assets/images/Fig4.png" alt="Wind Speed Image">
+                                        </img>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <!--Footer Section-->
+        <footer>
+            <div class="footer">© Copyright Coding Bootcamp 2019</div>
+        </footer>
+    </body>
+</html>
+
+
+
+
