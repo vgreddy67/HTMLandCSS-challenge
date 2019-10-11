@@ -32,4 +32,5 @@ Has the name of the site on the left of the nav which allows users to return to 
 Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
 Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
-Finally, the website is deployed to GitHub pages.
+Finally, the website is deployed to GitHub pages. 
+https://vgreddy67.github.io/Weather
