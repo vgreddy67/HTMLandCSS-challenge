@@ -15,6 +15,8 @@ The plot/visualization itself for the selected comparison.
 
 A paragraph describing the plot and its significance.
 
+![Landing Page]()
+
 A "Comparisons" page that:
 Contains all of the visualizations on the same page so we can easily visually compare them.
 
